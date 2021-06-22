@@ -1,0 +1,728 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    user-select: none;
+
+}
+
+#body0{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(coworking.jpg);
+    
+}
+
+#body1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(coworking1.jpeg);
+    
+}
+
+#body2{
+    width: 100vw;
+    height: 100%;
+    background-image: url(coworking2.jpg);
+    
+    
+}
+
+#body3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(coworking3.jpg);
+    
+    
+}
+
+#body4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(coworking4.jpg);
+    
+    
+}
+/*HEADER*/
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 8%;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    background-color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 80%;
+}
+
+
+#logo{
+    color: orange;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0px;
+   
+    
+}
+
+.listanavbar{
+    list-style-type: none;
+    list-style-position: inside;
+    
+}
+
+
+.linavbar{
+    color: blanchedalmond;
+    display: inline-block;
+    padding: 10px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+   
+    
+}
+
+a:hover{
+    transform: translate(0px, 10px);
+    color: orange;
+    font-size: 30px;
+}
+
+
+/*MAIN*/
+main{
+    height: 80%;
+    width: 100%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    opacity: 80%;
+}
+
+#footer1{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    opacity: 80%;
+}
+
+.txtFooter{
+    
+    color: white;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+}
+
+.btnFooter{
+    
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icoFooter{
+    
+}
+
+.imgFooter{
+    height: 30px;
+    padding-inline: 20px;
+}
+
+/*PAGINA DE INICIO*/
+#main1{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+#logoMain{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-style:normal;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    
+}
+
+#textoMain{
+    
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+#itemsMain{
+    
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boton{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 250px;
+    
+    color: white;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    
+}
+
+.textoboton{
+    
+}
+
+.imgboton{
+    width: 150px;
+    
+    
+}
+
+
+/*PAGINA DE SERVICIOS*/
+#main2{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "puestoind puestopriv sum";
+    column-gap: 10px;
+    padding: 10px;
+    
+  
+}
+
+.fichasservicios{
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(to top, white,orange );
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 10% 20% 30%;
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d";
+    justify-items: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.txtservicio{
+    color: black;
+    font-size: 35px;
+    font-style:normal;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    grid-area: b;
+}
+
+.imgservicio{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    
+}
+
+.imgserv{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;    
+    
+}
+
+
+
+.tablaservicios{
+    color: black;
+    font-size: 25px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    grid-area: c;
+}
+
+.listaservicio{ 
+    
+    color: black; 
+    font-size: 20px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: d;
+}
+
+/*PAGINA ESPACIOS*/
+#main3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    
+}
+
+#main33{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    margin: 0px auto;
+    border-radius: 0.50rem;
+    
+
+}
+
+.tituloespacio{
+    color: black; 
+    font-size: 40px;
+    font-style:bold;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+    
+.galeriaespacios{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 35px 300px ;
+    grid-template-areas: "tituloa tituloa tituloa tituloa"
+                         "imagenb imagenb imagenb imagenb";
+    justify-items: center;
+    align-items:initial;
+}
+
+.titulogaleria{
+    grid-area: tituloa;
+    color: black; 
+    font-size: 30px;
+    font-style:bold;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.galeria{
+    grid-area: imagenb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: "imga imgb imgc imgd";
+    
+}
+
+.fotoespacio{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    border: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    
+}
+
+.fotoespacio:hover{ 
+    transform:scale(2,2); 
+    /*transform:translate(5px,5px);*/
+    
+}
+
+
+/*PAGINA SOMOS QW*/
+#main4{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 35% 5% 50%;
+    grid-template-areas: "tituloso tituloso tituloso"
+                         "texto texto imagen"
+                         "staf staf  staf"
+                         "jefe1 jefe2 jefe3 ";
+    justify-items: start;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+}
+
+.titulosomos{
+    color: white; 
+    font-size: 35px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: tituloso;
+    padding-left: 10px;
+}
+
+.parrafo{
+    color: white; 
+    font-size: 20px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: texto;
+    padding-left: 10px;
+    text-align: start;
+    
+}
+
+.titulo1somos{
+    color: white; 
+    font-size: 35px;
+    font-style:normal;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: staf;
+    padding-left: 10px;
+}
+
+.jefea{
+    background-color: rgba(255, 255, 255, 0.5);
+  
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40%  60%;
+    grid-template-rows: 40% 60%;
+    grid-template-areas: "fotojefe nombrejefe"
+                         "textojefe textojefe";
+    align-items:center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.jefeb{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40%  60%;
+    grid-template-rows: 40% 60%;
+    grid-template-areas: "fotojefe nombrejefe"
+                         "textojefe textojefe";
+    align-items:center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.jefec{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40%  60%;
+    grid-template-rows: 40% 60%;
+    grid-template-areas: "fotojefe nombrejefe"
+                         "textojefe textojefe";
+    align-items:center;
+    justify-content: center;
+}
+
+.jefe1{
+    color: black; 
+    font-size: 15px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: textojefe;
+    
+    padding-left: 10px;
+    
+}
+
+.jefe2{
+    color: black; 
+    font-size: 15px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: textojefe;
+    
+    padding-left: 10px;
+    
+}
+
+.jefe3{
+    
+    color: black; 
+    font-size: 15px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: textojefe;
+    
+    padding-left: 10px;
+    
+}
+
+.nomjefe1{
+    color: black;
+    font-size: 35px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: nombrejefe;
+    text-align: center;
+}
+
+.nomjefe2{
+    color: black;
+    font-size: 35px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: nombrejefe;
+    text-align: center;
+}
+
+.nomjefe3{
+    color: black;
+    font-size: 35px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    grid-area: nombrejefe;
+    text-align: center;
+}
+
+.imgjefe1{
+    height: 150px;
+    object-fit: cover;
+    grid-area: fotojefe;
+    padding: 15px;
+    border-radius: 1rem;
+
+}
+
+.imgjefe2{
+    height: 150px;
+    object-fit: cover;
+    grid-area: fotojefe;
+    padding: 15px;
+    border-radius: 1rem;
+
+
+}
+
+.imgjefe3{
+    height:150px;
+    object-fit: cover;
+    grid-area: fotojefe;
+    padding: 15px;
+    border-radius: 1rem;
+
+}
+
+.imgsomos{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    grid-area: imagen;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+/*CONTACTO*/
+#main5{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-align:start;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px auto;
+    border-radius: 1rem;
+
+}
+
+input{
+    border-radius: 0.3rem;
+}
+
+.tituloh2{
+    color: black;
+    font-size: 35px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*.form{
+    height: 25px;
+}*/
+
+
+
+/*MEDIA QUERIES MOBILE*/
+@media only screen and (max-width: 600px){
+    /*MQ INICIO*/
+    #body2{
+        height: 100%;
+    }
+
+    /*#main1{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }*/
+
+    #logoMain{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-style:normal;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        
+    }
+    
+    #textoMain{
+        
+        
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-style:normal;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        
+        
+    }
+    
+    #itemsMain{
+        
+        
+       flex-direction: column;
+        
+    }
+    
+    .boton{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding: 75px;
+        height: 100px;
+        
+        color: white;
+        font-size: 10px;
+        font-style:normal;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        
+    }
+    
+    .textoboton{
+        
+    }
+    
+    .imgboton{
+        width: 75px;
+        
+        
+    }
+
+}
+
+/*MEDIA QUERIES MOBILE - HORIZONTAL -*/
+@media only screen and (max-width: 600px){
+
+}
+
+/*MEDIA QUERIES TABLET - HORIZONTAL -*/
+@media only screen and (min-width: 768px){
+
+}
+
+/*MEDIA QUERIES NOTEBOOK/ESCRITORIO*/
+@media only screen and (min-width: 992PX){
+
+}
+
+/*MEDIA QUERIES ESCRITORIO*/
+@media only screen and (min-width: 1200PX){
+
+}
